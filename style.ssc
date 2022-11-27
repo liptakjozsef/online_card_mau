@@ -1,0 +1,161 @@
+.profile-card {
+  /*background-color: hsla(60, 100%, 50%, .4);*/
+  height: 500px;
+  
+}
+.head {
+ /* background-color:/* hsla(120, 100%, 50%, .4);*/
+  height: 300px;
+}
+body {     
+       line-height: 1.5;
+       letter-spacing: 0.01em;
+       color:  black;
+       padding: 0;  
+}
+p::first-letter {
+    font-family: "Cinzel Decorative", cursive;
+    font-size: 32px;
+}
+
+ 
+.content {
+  /*background-color: hsla(120, 100%, 50%, .4);*/
+  height: 350px;
+}
+.profile-image {
+  /*background-color: hsla(300, 100%, 50%, .4);*/
+  height: 140px;
+}
+.name-headline {
+  /*background-color:yellow;*/
+  height: 100px;
+}
+.about {
+  /*background-color: hsla(300, 100%, 50%, .4);*/
+  height: 150px;
+}
+
+.design {
+  
+  height: 60px;
+}
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+.square {
+  height: 50px;
+  width: 80px;
+  background-color: #ffe6e6;
+}
+.trapezoid {
+	border-bottom: 50px solid #ffffb3;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;
+}
+.parallelogram {
+	width: 100px;
+	height: 50px;
+	transform: skew(20deg);
+	background: #b3ffb3;
+}
+
+.design-fourth {   
+border-bottom: 30px solid #6C6;
+
+width: 54px;
+height: 30px;
+margin: 0 auto;
+width: 0;
+border-top: 30px solid #6C6;
+border-left: 52px solid transparent;
+border-right: 52px solid transparent; 
+}
+
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+
+
+.links {
+ /* background-color: hsla(300, 100%, 50%, .4);*/
+  height: 120px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('https://i.imgur.com/rIIH6RK.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.head, .links {
+  text-align: center;
+}
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+.head, .about {
+  margin-bottom: 10%;
+}
+.content {
+  padding: 5% 10%;
+}
+.profile-image {
+  margin-top: -60px;
+}
+
+img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #666;
+  filter: grayscale(50%);
+  transition: all 0.5s ease-in-out;
+}
+img:hover {
+  filter: grayscale(30%);
+  transform: scale(1.3);
+}
+.profile-card {
+ /* background-color: hsla(0, 0%, 100%, .5);*/
+  border-radius: 10px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+
+
+
+
+
+
