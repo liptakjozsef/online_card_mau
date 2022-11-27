@@ -102,8 +102,10 @@ body {
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background: url('https://i.imgur.com/rIIH6RK.jpg') no-repeat center center fixed;
+  justify-content: center;  
+  background: url('assets/Japán.jpg') no-repeat center center fixed;
+  background: url('assets/freedom.jpg') no-repeat center fixed;
+  background: url('assets/Japán.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -124,7 +126,7 @@ body {
   padding: 5% 10%;
 }
 .profile-image {
-  margin-top: -60px;
+  margin-top: -20px;
 }
 
 img {
